@@ -17,6 +17,3 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
 ```
-
-
-Go to [MODELS & SCHEMAS GUIDE](models_&_schema.md) or back to [ DATABASE INIT GUIDE](__init__.md)

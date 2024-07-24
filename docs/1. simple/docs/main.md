@@ -28,5 +28,3 @@ app.include_router(book.router, prefix="/books", tags=["BOOKS"])
 app.include_router(publisher.router, prefix="/publisher", tags=["PUBLISHER"])
 
 ```
-
-Go to [DATABASE INIT GUIDE](db/__init__.md) or back to [README](../README.md)

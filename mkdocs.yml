@@ -1,10 +1,28 @@
 site_name: Backend Fresher Guide
 nav:
   - Home: index.md
-  - Training Levels:
-    - Simple: 1. simple/index.md
-    - Medium: 2. medium/index.md
-    - Hard: 3. hard/index.md
+  - Simple:
+    - Quick start: 1. simple/index.md
+    - Basic Structure: 1. simple/docs/basic_structure.md
+    - DB Init: 1. simple/docs/db/__init__.md
+    - Basic: 1. simple/docs/db/basic.md
+    - Models & Schema: 1. simple/docs/db/models_&_schema.md
+    - Main: 1. simple/docs/main.md
+    - CRUD Operations: 1. simple/docs/db/CRUD.md
+    - Setup: 1. simple/docs/setup.md
+    - Endpoints Init: 1. simple/docs/endpoints/__init__.md
+    - Book Endpoint: 1. simple/docs/endpoints/book.md
+    - Publisher Endpoint: 1. simple/docs/endpoints/publisher.md
+  - Medium:
+    - Quick start: 2. medium/index.md
+    - Endpoints: 2. medium/endpoints.md
+    - Models: 2. medium/models.md
+  - Hard:
+    - Quick start: 3. hard/index.md
+    - AWS: 3. hard/AWS.md
+    - Azure: 3. hard/AZURE.md
+    - GCP: 3. hard/GCP.md
+
 theme:
   name: mkdocs
   color_mode: auto

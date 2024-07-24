@@ -20,5 +20,3 @@ router = APIRouter()
 ```python
 @router.put("/{publisher_id}/", response_model=schemas.Publisher)
 ```
-
-Go to [ENDPOINTS](__init__.md) or back to [README](../../README.md)

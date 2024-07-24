@@ -105,5 +105,3 @@ Contains test cases for different parts of the application.
 - **Modularity**: Makes it easier to maintain and extend the application.
 - **Scalability**: Facilitates adding new features or components without disrupting existing code.
 - **Testing**: Encourages organized testing with dedicated test files and directories.
-
-back to [SETUP](setup.md)

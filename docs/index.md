@@ -2,9 +2,9 @@
 
 This guide is designed to help you learn step-by-step through different levels of complexity. Choose your starting point below:
 
-- [Simple](simple/index.md): Get started with the basics.
-- [Medium](medium/index.md): Dive into more advanced topics.
-- [Hard](hard/index.md): Tackle complex scenarios and optimization.
+- [Simple](1. simple/index.md): Get started with the basics.
+- [Medium](2. medium/index.md): Dive into more advanced topics.
+- [Hard](3. hard/index.md): Tackle complex scenarios and optimization.
 
 ## How to Use This Guide
 

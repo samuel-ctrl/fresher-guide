@@ -29,6 +29,3 @@
    ```bash
    pip install fastapi uvicorn sqlalchemy psycopg2-binary
    ```
-
-   Go to [DATABASE GUIDE](db/__init__.md) or
-   back to [README](../README.md)

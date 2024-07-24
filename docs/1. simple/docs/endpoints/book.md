@@ -45,5 +45,3 @@ router = APIRouter()
 ```python
 @router.get("/search/", response_model=List[schemas.Book])
 ```
-
-Go to [PUBLISHER ENDPOINTS](publisher.md) or back to [README](../../README.md)

@@ -77,5 +77,3 @@ def delete_book(db: Session, book_id: int):
 5. **`delete_book`**:
    - Deletes a book record by its ID.
    - Finds the book, deletes it, commits the transaction, and returns the deleted book.
-
-Go to [MAIN GUIDE](../main.md) or back to [DATABASE INIT GUIDE](__init__.md)

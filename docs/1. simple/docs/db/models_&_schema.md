@@ -1,5 +1,6 @@
-# Guide to Creating SQLAlchemy Models and Pydantic Schemas
+Here’s the text with the header in bold:
 
+**## Guide to Creating SQLAlchemy Models and Pydantic Schemas**
 Define your database models & schema in `db/models.py` & `db/schema.py`:
 Here’s a refined version of your notes and comparison table for better clarity and presentation:
 
@@ -129,5 +130,3 @@ Here’s a refined version of your notes and comparison table for better clarity
 5. Define a `Review` class that inherits from `ReviewBase`.
 6. Add an `id` field to the `Review` class.
 7. Set the `orm_mode` to `True` in the `Config` class of the `Review`.
-
-Go to [CRUD GUIDE](CRUD.md) or back to [DATABASE INIT GUIDE](__init__.md)

@@ -11,6 +11,3 @@
 ## Conclusion
 
 By following these steps, you can set up a FastAPI project with SQL databases. For more detailed explanations and additional features, please refer to the official [FastAPI SQL Databases Tutorial](https://fastapi.tiangolo.com/tutorial/sql-databases/).
-
-
-Go to [ENDPOINTS INIT Guide](../endpoints/__init__.md) or back to [README](../../README.md)
