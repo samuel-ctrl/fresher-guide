@@ -2,7 +2,7 @@ site_name: Backend Fresher Guide
 nav:
   - Home: index.md
   - Simple:
-    - Quick start: 1. simple/index.md
+    - Index: 1. simple/index.md
     - Basic Structure: 1. simple/docs/basic_structure.md
     - DB Init: 1. simple/docs/db/__init__.md
     - Basic: 1. simple/docs/db/basic.md
@@ -14,11 +14,9 @@ nav:
     - Book Endpoint: 1. simple/docs/endpoints/book.md
     - Publisher Endpoint: 1. simple/docs/endpoints/publisher.md
   - Medium:
-    - Quick start: 2. medium/index.md
-    - Endpoints: 2. medium/endpoints.md
-    - Models: 2. medium/models.md
+    - Index: 2. medium/index.md
   - Hard:
-    - Quick start: 3. hard/index.md
+    - Index: 3. hard/index.md
     - AWS: 3. hard/AWS.md
     - Azure: 3. hard/AZURE.md
     - GCP: 3. hard/GCP.md
