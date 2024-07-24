@@ -10,4 +10,4 @@ npm install -g http-server
 mkdocs build
 
 # Start http-server to serve the site (optional, for local preview)
-http-server site
+http-server
