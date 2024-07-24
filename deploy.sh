@@ -4,7 +4,9 @@
 pip install mkdocs
 
 # Install http-server globally using npm
+echo "Installing Node dependencies..."
 npm install -g http-server
+echo "Instaled Node dependencies..."
 
 # Build the MkDocs site
 mkdocs build
