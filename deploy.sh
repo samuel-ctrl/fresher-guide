@@ -10,6 +10,3 @@ echo "Instaled Node dependencies..."
 
 # Build the MkDocs site
 mkdocs build
-
-# Start http-server to serve the site (optional, for local preview)
-http-server
