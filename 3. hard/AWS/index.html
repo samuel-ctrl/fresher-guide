@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>AWS - Backend Fresher Guide</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="../../extra.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Backend Fresher Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Training Levels</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../1.%20simple/" class="dropdown-item">Simple</a>
+</li>
+                                    
+<li>
+    <a href="../../2.%20medium/" class="dropdown-item">Medium</a>
+</li>
+                                    
+<li>
+    <a href="../" class="dropdown-item">Hard</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="true">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="../../js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#advanced-task-deploying-a-web-application-with-docker-on-aws" class="nav-link">Advanced Task: Deploying a Web Application with Docker on AWS</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#prerequisites" class="nav-link">Prerequisites</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#steps" class="nav-link">Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#summary" class="nav-link">Summary</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p>For advanced tasks, deploying a web application with Docker on AWS involves several complex steps. Here’s a detailed guide for creating documentation on such a topic:</p>
+<hr />
+<h1 id="advanced-task-deploying-a-web-application-with-docker-on-aws">Advanced Task: Deploying a Web Application with Docker on AWS</h1>
+<h2 id="overview">Overview</h2>
+<p>This guide will walk you through deploying a web application using Docker on AWS. It includes setting up Docker containers, configuring AWS services, and deploying the application to a scalable environment.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Basic understanding of Docker</li>
+<li>Familiarity with AWS services</li>
+<li>Access to an AWS account</li>
+<li>A web application (e.g., built with FastAPI, Django, etc.)</li>
+</ul>
+<h2 id="steps">Steps</h2>
+<h3 id="1-dockerize-your-application">1. Dockerize Your Application</h3>
+<p><strong>1.1 Create a Dockerfile</strong></p>
+<ul>
+<li>Navigate to the root directory of your project.</li>
+<li>Create a file named <code>Dockerfile</code> and define the Docker image configuration.</li>
+</ul>
+<p><strong>Example Dockerfile for a Python Web Application:</strong></p>
+<pre><code class="language-dockerfile"># Use the official Python image from the Docker Hub
+FROM python:3.9-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the dependencies file
+COPY requirements.txt .
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the application code
+COPY . .
+
+# Expose the port
+EXPOSE 8000
+
+# Command to run the application
+CMD [&quot;uvicorn&quot;, &quot;main:app&quot;, &quot;--host&quot;, &quot;0.0.0.0&quot;, &quot;--port&quot;, &quot;8000&quot;]
+</code></pre>
+<p><strong>1.2 Build and Test Docker Image</strong></p>
+<pre><code class="language-sh"># Build the Docker image
+docker build -t my-web-app .
+
+# Run the Docker container locally
+docker run -p 8000:8000 my-web-app
+</code></pre>
+<h3 id="2-set-up-aws-infrastructure">2. Set Up AWS Infrastructure</h3>
+<p><strong>2.1 Create an AWS Account</strong></p>
+<ul>
+<li>If you don’t already have an AWS account, create one at <a href="https://aws.amazon.com/">aws.amazon.com</a>.</li>
+</ul>
+<p><strong>2.2 Set Up AWS CLI</strong></p>
+<ul>
+<li>Install the AWS CLI on your local machine.</li>
+<li>Configure it with your AWS credentials.</li>
+</ul>
+<pre><code class="language-sh">aws configure
+</code></pre>
+<p><strong>2.3 Create an Amazon Elastic Container Registry (ECR)</strong></p>
+<ul>
+<li>Go to the ECR section in the AWS Management Console.</li>
+<li>Create a new repository for your Docker images.</li>
+</ul>
+<p><strong>2.4 Push Docker Image to ECR</strong></p>
+<pre><code class="language-sh"># Authenticate Docker with ECR
+aws ecr get-login-password --region &lt;region&gt; | docker login --username AWS --password-stdin &lt;account_id&gt;.dkr.ecr.&lt;region&gt;.amazonaws.com
+
+# Tag the Docker image
+docker tag my-web-app:latest &lt;account_id&gt;.dkr.ecr.&lt;region&gt;.amazonaws.com/my-web-app:latest
+
+# Push the Docker image
+docker push &lt;account_id&gt;.dkr.ecr.&lt;region&gt;.amazonaws.com/my-web-app:latest
+</code></pre>
+<h3 id="3-deploy-to-aws">3. Deploy to AWS</h3>
+<p><strong>3.1 Create an Amazon Elastic Container Service (ECS) Cluster</strong></p>
+<ul>
+<li>Go to the ECS section in the AWS Management Console.</li>
+<li>Create a new cluster for your application.</li>
+</ul>
+<p><strong>3.2 Define a Task Definition</strong></p>
+<ul>
+<li>Create a task definition that specifies how to run your Docker container.</li>
+<li>Include the Docker image URL from ECR and specify container settings.</li>
+</ul>
+<p><strong>3.3 Set Up an ECS Service</strong></p>
+<ul>
+<li>Create a new service in your ECS cluster using the task definition.</li>
+<li>Configure it to run a desired number of tasks and set up load balancing if necessary.</li>
+</ul>
+<p><strong>3.4 Configure Networking</strong></p>
+<ul>
+<li>Set up an Application Load Balancer (ALB) to distribute traffic to your ECS tasks.</li>
+<li>Configure security groups to allow inbound traffic on the required ports (e.g., port 80 for HTTP).</li>
+</ul>
+<p><strong>3.5 Launch and Monitor</strong></p>
+<ul>
+<li>Deploy your ECS service and verify that the application is running correctly.</li>
+<li>Use CloudWatch to monitor logs and performance metrics.</li>
+</ul>
+<h3 id="4-automate-deployment-with-cicd">4. Automate Deployment with CI/CD</h3>
+<p><strong>4.1 Set Up a CI/CD Pipeline</strong></p>
+<ul>
+<li>Use AWS CodePipeline or GitHub Actions to automate the build and deployment process.</li>
+<li>Define steps to build the Docker image, push it to ECR, and deploy it to ECS.</li>
+</ul>
+<p><strong>4.2 Example GitHub Actions Workflow</strong></p>
+<pre><code class="language-yaml">name: Deploy to ECS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Log in to Amazon ECR
+        uses: aws-actions/amazon-ecr-login@v1
+
+      - name: Build, tag, and push Docker image
+        run: |
+          docker build -t my-web-app .
+          docker tag my-web-app:latest &lt;account_id&gt;.dkr.ecr.&lt;region&gt;.amazonaws.com/my-web-app:latest
+          docker push &lt;account_id&gt;.dkr.ecr.&lt;region&gt;.amazonaws.com/my-web-app:latest
+
+      - name: Deploy to ECS
+        uses: aws-actions/amazon-ecs-deploy-task-definition@v1
+        with:
+          cluster: my-cluster
+          service: my-service
+          task-definition: my-task-definition
+</code></pre>
+<h2 id="summary">Summary</h2>
+<ul>
+<li><strong>Dockerize Your Application</strong>: Create a Dockerfile, build and test the Docker image.</li>
+<li><strong>Set Up AWS Infrastructure</strong>: Create an ECR repository, push the Docker image, and configure ECS.</li>
+<li><strong>Deploy to AWS</strong>: Set up ECS clusters, task definitions, services, and load balancing.</li>
+<li><strong>Automate Deployment</strong>: Use CI/CD tools to streamline the deployment process.</li>
+</ul>
+<p>This guide outlines the steps needed to deploy a Dockerized application to AWS using ECS, ensuring a scalable and robust deployment solution.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
